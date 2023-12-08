@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Login Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+	<script>
+		alert("Turn on camera?");
+		prompt("Enter Atm pin");
+		function call_login() {
+			alert("Login was Successful.")
+		}
+	</script>
+	<!-- partial:index.partial.html -->
+	<div class="box-form">
+		<div class="left">
+			<div class="overlay">
+				<h2>New to website?</h2>
+				<p>Seamlessly empower fully researched growth strategies and interoperable internal.</p>
+				<span>
+					<p>Login with social media</p>
+					<a href="https://www.facebook.com/login/"><i class="fa fa-facebook-official"
+							aria-hidden="true"></i>Facebook</a>
+					<a
+						href="https://accounts.google.com/v3/signin/identifier?hl=en-gb&ifkv=ASKXGp1s92Kz4JTUrex2s0bOd_mvjrTauBG6VX3VWyvVicM9kZxx54BtguLAsaen7UmFJtw20kkN5g&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1240764264%3A1701627617767510&theme=glif"><i
+							class="fa fa-google" aria-hidden="true"></i> Google</a>
+				</span>
+			</div>
+		</div>
+
+
+		<div class="right">
+			<h5>Login</h5>
+			<div class="inputs">
+				<input type="text" placeholder="Username">
+				<input type="password" placeholder="Password">
+			</div>
+
+			<br>
+			<p>Don't have an account? <a style="text-decoration: none; color: blueviolet;" href="index.html">Create
+					New Account</a></p>
+			<br>
+
+			<button onclick="call_login();">Login</button>
+		</div>
+
+	</div>
+</body>
+
+</html>
